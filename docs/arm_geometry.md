@@ -104,7 +104,7 @@ double forearm_length = L2;
      ```
    - This allows us to find:
      ```cpp
-     double elbow angle = acos( ((pow(d, 2) - pow(L1, 2) - pow(L2, 2))) / (2 * L1 * L2) );
+     double elbow_angle = acos( ((pow(d, 2) - pow(L1, 2) - pow(L2, 2))) / (2 * L1 * L2) );
      ```
    - This angle determines the amount of rotation needed in the elbow joint so that the end of the forearm(manipulator) is at the target point
 
