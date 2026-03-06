@@ -10,7 +10,7 @@ The arm contains the following joints:
 2. **Shoulder (Pitch)**
 3. **Elbow (Pitch)**
 
-A claw or gripper may be attached to the end effector, but it does not affect the kinematics used to position the arm.
+A claw or gripper may be attached to the manipulator of the arm, but it does not affect the kinematics used to position the arm.
 
 ---
 
