@@ -18,8 +18,8 @@ namespace arm{ // namespace for organization and to avoid conflicting method nam
 
 
   const double shoulder_height = 2.4; // how high the center of the shoulder joint is from a given plane, normally the bottom of the arm/workspace
-  const double upper_arm_length = 3.7 // the distance between the shoulder joint and the elbow joint
-  const double forearm_length = 8.9; // the distance between the elbow joint and the end of the manipulator
+  const double upper_arm_length = 3.7 // the distance between the shoulder joint and the elbow joint in inches
+  const double forearm_length = 8.9; // the distance between the elbow joint and the end of the manipulator in inches
 
   const double SHOULDER_OFFSET_DEG = -90.0; // given offsets depending on your arm starting position
   const double ELBOW_OFFSET_DEG = 0; // offsets are defaulted to -90.0 and 0, these assume that the arm starts with all joints aligned and pointing straight up
