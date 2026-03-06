@@ -110,6 +110,8 @@ double forearm_length = L2;
 
 ## Coordinate system
    - **The code utilizes cartesian coordinates for input parameters and calculations but can also be converted to polar coordinates if neccassary with the use of new helper function**
+
+     
    | Axis | Direction | Planes |
    |------|-----------|--------|
    | **X Axis** | Forward relative to the base | XY & XZ |
