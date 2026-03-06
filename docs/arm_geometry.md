@@ -63,7 +63,7 @@ double forearm_length = L2;
 
 ## Workspace/Robot Work Envelope
 
-   - The reachable workspace of the arm is bounded by |L1-L2|
+   - The reachable workspace that the arm's reach is bounded by |L1-L2|
 
 ## Joint Definitions
 
