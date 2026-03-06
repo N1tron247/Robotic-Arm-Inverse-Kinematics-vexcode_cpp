@@ -95,3 +95,14 @@ double forearm_length = L2;
     double shoulder_angle = alpha - beta;
     ```
   - This shoulder movement allows the forearm to be in radial range with the target point
+
+**Elbow Joint**
+   - The elbow joint controls the angle between the upper arm and forearm
+   - Its angle is determined similar to the angle of the shoulder joint, by applying the law of cosines to a planar triangle:
+     ```
+     cos(elbow_angle) = (d² − L1² − L2²) / (2×L1×L2)
+     ```
+   - This allows us to find:
+     ```cpp
+     double elbow angle = acos( ((pow(d, 2) - pow(L1, 2) - pow(L2, 2))) / (2 * L1 * L2) );
+     ```
