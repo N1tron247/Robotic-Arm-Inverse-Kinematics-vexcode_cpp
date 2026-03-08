@@ -25,4 +25,4 @@ This project computes joint angles required for the arm's manipulator(claw) to r
 3. **Measure the lengths of your robotic arm's sub-lengths(upper arm, forearm) and enter them into the top of the code into their corresponding variables**
 
 ## Demo
-Add a short video/gif later (optional).
+Maybe later...
