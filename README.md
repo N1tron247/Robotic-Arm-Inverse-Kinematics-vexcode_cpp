@@ -12,12 +12,12 @@ This project computes joint angles required for the arm's manipulator(claw) to r
 
 ## Repo Layout
 - `vexcode/IK_Robotic_Arm-2026-01-08/src/` contains the VEX project code
-- `docs/` (optional) for diagrams and math notes
+- `docs/` contains diagrams and math notes
 
 ## How it works
 1. Forward kinematics computes manipulator's position from joint angles
-2. Inverse kinematics solves angles from a desired target position
-3. Joint limits are enforced to keep motion within the robot's physical capabilites
+2. Inverse kinematics calculates the angles needed to bring the manipulator the to target position
+3. Joint limits are enforced to keep motion within the robot's work envelope
 
 ## How to run
 1. Open the project in VEXcode V5
