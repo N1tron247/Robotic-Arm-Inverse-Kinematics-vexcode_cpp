@@ -11,7 +11,7 @@ This project computes joint angles required for the arm's manipulator(claw) to r
 - IK method: **Geometric**
 
 ## Repo Layout
-- `src/` / `include/` (or your VEXcode structure) contains the VEX project code
+- `vexcode/IK_Robotic_Arm-2026-01-08`/`src`/` contains the VEX project code
 - `docs/` (optional) for diagrams and math notes
 
 ## How it works
